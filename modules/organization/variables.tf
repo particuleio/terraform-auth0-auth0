@@ -9,7 +9,7 @@ variable "name" {
   type        = string
 }
 
-variable "dispaly_name" {
+variable "display_name" {
   description = "Desired name to be displayed for the Auth0 organization"
   type        = string
 }
