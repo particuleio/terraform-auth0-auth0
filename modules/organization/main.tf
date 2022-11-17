@@ -13,10 +13,4 @@ resource "auth0_organization" "this" {
       }
     }
   }
-  dynamic "connections" {
-    for_each = var.connections
-    content {
-      connection_id = connections.value.connection_id
-    }
-  }
 }

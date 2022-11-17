@@ -25,11 +25,3 @@ variable "branding" {
   }))
   default = []
 }
-
-variable "connections" {
-  description = "Connections configuration for Auth0 organization"
-  type = list(object({
-    connection_id = string
-  }))
-  default = []
-}
